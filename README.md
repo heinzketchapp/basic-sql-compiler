@@ -9,7 +9,7 @@ This is a basic SQL compiler that can parse and show output for the following st
 # DEPENDENCIES
 1. Flex
 2. Bison
-#. g++
+3. g++
 
 # Installation
 
