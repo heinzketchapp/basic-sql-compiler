@@ -33,7 +33,9 @@ $ yum groupinstall 'Development tools'
 
 # Commands to setup and execute
 `$ flex sql.l`
+
 `$ bison -dy sql.y`
+
 `$ g++ lex.yy.c y.tab.c -o sql.exe`
 
 To execute, run sql.exe
