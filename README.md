@@ -14,14 +14,19 @@ This is a basic SQL compiler that can parse and show output for the following st
 # Installation
 
 For Windows:
+
 You'll need the latest versions of:
-[Flex](http://gnuwin32.sourceforge.net/packages/flex.htm) 
+
+[Flex](http://gnuwin32.sourceforge.net/packages/flex.htm)
+
 [Bison](http://gnuwin32.sourceforge.net/packages/bison.htm)
 
 Do a full install in a directory of your preference without spaces in the name because bison has problems with spaces in directory names.
 
 Suggested directory: 
+
 C:\GnuWin32
+
 Set PATH variable to include the bin directories of flex/bison: C:\GnuWin32\bin
 
 [g++](http://www.mingw.org/)
@@ -29,6 +34,7 @@ Set PATH variable to include the bin directories of flex/bison: C:\GnuWin32\bin
 Set PATH variable to include C:\MinGW\bin
 
 For Linux:
+
 `$ yum install flex`
 
 `$ yum install bison`
@@ -38,7 +44,6 @@ If gcc and/or g++ and its related Development Tools are not installed in your sy
 `$ yum groupinstall 'Development tools'`
 
 # Commands to setup and execute
-
 `$ flex sql.l`
 
 `$ bison -dy sql.y`
