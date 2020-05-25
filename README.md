@@ -1,5 +1,5 @@
 # basic-sql-compiler
-This is a basic SQL compiler that can parse and show output for the following statements:
+This is a basic SQL parser that can parse and show output for the following statements:
 1. Create table table-name();
 2. Insert into table-name values();
 3. Select * from table-name where condition;
