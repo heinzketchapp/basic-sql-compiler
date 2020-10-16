@@ -51,6 +51,3 @@ If gcc and/or g++ and its related Development Tools are not installed in your sy
 `$ g++ lex.yy.c y.tab.c -o sql.exe`
 
 To execute, run sql.exe
-
-# Acknowledgement
-[Muttashim Sarkar](https://github.com/Muttashim)
